@@ -1,0 +1,153 @@
+{
+  "navigation": {
+    "about": "acerca",
+    "work": "trabajo",
+    "contact": "contacto"
+  },
+  "heading": "Diseñamos, producimos y entregamos contenido de marcas.",
+  "carousel": {
+    "slides": [{
+      "image": "carrusel-1.jpg",
+      "text": "Diseñamos, producimos y entregamos contenido de marcas."
+    }, {
+      "image": "carrusel-2.jpg",
+      "text": "Usando los mejores talentos, proesos y herramientas."
+    }, {
+      "image": "carrusel-3.jpg",
+      "text": "El resultado? una sencilla ejecución global de múltiples tipos de contenido a lo largo de todos los mercados, sin comprometer la calidad creativa."
+    }, {
+      "image": "carrusel-4.jpg",
+      "text": "Llamamos a esto Logística de Marca™, nuestra nueva visión para un entorno basado en contenido mediático."
+    }],
+    "learnMore": "Conoce más"
+  },
+  "hero": {
+    "title": "Hermanos",
+    "text": "Lanzando sus Marcas.",
+    "secondaryText": "Consumidor digital Y medios sociales",
+    "learnMore": "Conoce Mas"
+  },
+  "work": {
+    "cards": [{
+        "title": "Liderazgo Aprendido",
+        "subtitle": "Junio 21, 2017",
+        "text": "Nominación para Agencia Global del Año",
+        "color": "blue"
+      },
+      {
+        "title": "Liderazgo",
+        "subtitle": "",
+        "text": "Campaña de cuidado animal",
+        "image": {
+          "path": "dog.jpg",
+          "position": "top"
+        }
+      },
+      {
+        "title": "Trabajo",
+        "subtitle": "Pensamiento de Diseño",
+        "text": "El color ROJO está de moda, y no es un color de marca.",
+        "color": "red"
+      }, {
+        "title": "Bienes de Consumidores",
+        "subtitle": "",
+        "text": "Cuidado Personal, y sus implicaciones para el futuro",
+        "image": {
+          "path": "model.jpg",
+          "position": "bottom"
+        }
+      }, {
+        "title": "Visión",
+        "subtitle": "Junio 19, 2017",
+        "text": "El Amanecer de la Influencia Aumentada",
+        "color": "black"
+      }, {
+        "title": "Visión",
+        "subtitle": "",
+        "text": "El mejor rompehielos del 2017: Cuidar de aquellos en necesidad",
+        "image": {
+          "path": "child.jpg",
+          "position": "bottom"
+        }
+      }
+    ],
+    "readMore": "Read More"
+  },
+  "contact": {
+    "title": "Contacto",
+    "greeting": "Hola",
+    "message": "Queremos saber de tí. Para dirigir tu mensaje al equipo específico, por favor selecciona la opción apropiada.",
+    "thankyou": "gracias por contactarnos!",
+    "formName": "Información Personal",
+    "name": "Nombre",
+    "lastName": "Apellidos",
+    "country": "País",
+    "email": "Email",
+    "interestHeader": "Interesado en:",
+    "checkboxes": [{
+        "label": "Etiqueta checkbox"
+      },
+      {
+        "label": "Opción 1"
+      }, {
+        "label": "Opción 2"
+      }, {
+        "label": "Opción 3"
+      }, {
+        "label": "Opción 4"
+      }, {
+        "label": "Otra Opción"
+      }
+    ],
+    "cta": "Contactemos"
+  },
+  "footer": {
+    "summary": "Diseñamos, producimos y entregamos contenido de marcas a traves de todos los canales, usando los mejores talentos, proesos y herramientas. El resultado? una sencilla ejecución global de múltiples tipos de contenido a lo largo de todos los mercados, sin comprometer la calidad creativa. Llamamos a esto Logística de Marca™, nuestra nueva visión para un entorno basado en contenido mediático.",
+    "social": [{
+      "image": "inside-white@3x.png",
+      "url": "https://www.slideshare.com",
+      "alt": "Slideshare"
+    },
+    {
+      "image": "linkdin-white@3x.png",
+      "url": "https://www.linkedin.com",
+      "alt": "LinkedIn"
+    },
+    {
+      "image": "facebook-white@3x.png",
+      "url": "https://www.facebook.com",
+      "alt": "Facebook"
+    },
+    {
+      "image": "instagram-white@3x.png",
+      "url": "https://www.instagram.com",
+      "alt": "Instagram"
+    },
+    {
+      "image": "twitter-white@3x.png",
+      "url": "https://www.twitter.com",
+      "alt": "Twitter"
+    },
+    {
+      "image": "podcast-white@3x.png",
+      "url": "https://player.fm/podcasts/Vuejs",
+      "alt": "Podcasts"
+    }],
+    "contactCta": "Contacto",
+    "footerLinks": [{
+      "label": "Showroom",
+      "url": "#"
+    },
+    {
+      "label": "Mapa del sitio",
+      "url": "#"
+    },{
+      "label": "Privacidad",
+      "url": "#"
+    },{
+      "label": "Accesibilidad",
+      "url": "#"
+    }],
+    "copyright": "© 2017 MSL. Todos los derechos reservados."
+  }
+}

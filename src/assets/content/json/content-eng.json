@@ -1,0 +1,153 @@
+{
+  "navigation": {
+    "about": "about",
+    "work": "work",
+    "contact": "contact"
+  },
+  "heading": "We design, produce and deliver brand content.",
+  "carousel": {
+    "slides": [{
+      "image": "carrusel-1.jpg",
+      "text": "We design, produce and deliver brand content."
+    }, {
+      "image": "carrusel-2.jpg",
+      "text": "Using the best talent, processes and tools."
+    }, {
+      "image": "carrusel-3.jpg",
+      "text": "The result? Seamless global execution of multiple content types across all markets, without compromising creative quality."
+    }, {
+      "image": "carrusel-4.jpg",
+      "text": "We call this brand logistics™, our new vision for a new content-driven media landscape."
+    }],
+    "learnMore": "More about Us"
+  },
+  "hero": {
+    "title": "Brothers",
+    "text": "Launching their brands.",
+    "secondaryText": "Consumer Digital & Social Media",
+    "learnMore": "Learn More"
+  },
+  "work": {
+    "cards": [{
+        "title": "tought leadership",
+        "subtitle": "June 21, 2017",
+        "text": "Nomination for Global Agency of the Year",
+        "color": "blue"
+      },
+      {
+        "title": "Leadership",
+        "subtitle": "",
+        "text": "Animal treatment campaing",
+        "image": {
+          "path": "dog.jpg",
+          "position": "top"
+        }
+      },
+      {
+        "title": "Work",
+        "subtitle": "Design thinking",
+        "text": "RED color is in, and it's not a branded color.",
+        "color": "red"
+      }, {
+        "title": "Consumer Goods",
+        "subtitle": "",
+        "text": "Personal care, and its implication for the future",
+        "image": {
+          "path": "model.jpg",
+          "position": "bottom"
+        }
+      }, {
+        "title": "Insights",
+        "subtitle": "June 19, 2017",
+        "text": "The Dawn of the Augmented Influence",
+        "color": "black"
+      }, {
+        "title": "Insights",
+        "subtitle": "",
+        "text": "2017's Top Conversation Starter: Care for those in need",
+        "image": {
+          "path": "child.jpg",
+          "position": "bottom"
+        }
+      }
+    ],
+    "readMore": "Read More"
+  },
+  "contact": {
+    "title": "contact us",
+    "greeting": "Hello",
+    "message": "We want to hear from you. To direct your message to a specific team, please select the appropriate tab below",
+    "thankyou": "thanks for contacting us!",
+    "formName": "Personal Information",
+    "name": "Name",
+    "lastName": "Last Name",
+    "country": "Country",
+    "email": "Email",
+    "interestHeader": "Interested In:",
+    "checkboxes": [{
+        "label": "Checkbox label"
+      },
+      {
+        "label": "Option 1"
+      }, {
+        "label": "Option 2"
+      }, {
+        "label": "Option 3"
+      }, {
+        "label": "Option 4"
+      }, {
+        "label": "Other Option"
+      }
+    ],
+    "cta": "Let's make contact"
+  },
+  "footer": {
+    "summary": "We design, produce and deliver brand content across all channels, using the best talent, processes and tools. The result? Seamless global execution of multiple content types across all markets, without compromising creative quality. We call this brand logistics™, our new vision for a new content-driven media landscape.",
+    "social": [{
+      "image": "inside-white@3x.png",
+      "url": "https://www.slideshare.com",
+      "alt": "Slideshare"
+    },
+    {
+      "image": "linkdin-white@3x.png",
+      "url": "https://www.linkedin.com",
+      "alt": "LinkedIn"
+    },
+    {
+      "image": "facebook-white@3x.png",
+      "url": "https://www.facebook.com",
+      "alt": "Facebook"
+    },
+    {
+      "image": "instagram-white@3x.png",
+      "url": "https://www.instagram.com",
+      "alt": "Instagram"
+    },
+    {
+      "image": "twitter-white@3x.png",
+      "url": "https://www.twitter.com",
+      "alt": "Twitter"
+    },
+    {
+      "image": "podcast-white@3x.png",
+      "url": "https://player.fm/podcasts/Vuejs",
+      "alt": "Podcasts"
+    }],
+    "contactCta": "Contact",
+    "footerLinks": [{
+      "label": "Showroom",
+      "url": "#"
+    },
+    {
+      "label": "Site Map",
+      "url": "#"
+    },{
+      "label": "Privacy",
+      "url": "#"
+    },{
+      "label": "Accesibility",
+      "url": "#"
+    }],
+    "copyright": "© 2017 MSL. All Rights Reserved."
+  }
+}

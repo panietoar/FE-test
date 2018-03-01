@@ -1,0 +1,19 @@
+{
+  "name": "fe-test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "test",
+    "dev": "npm run scss && http-server",
+    "scss": "node-sass --output-style compressed -o dist/css src/scss"
+  },
+  "author": "panietoar@gmail.com",
+  "license": "ISC",
+  "dependencies": {
+    "normalize.css": "^8.0.0"
+  },
+  "devDependencies": {
+    "node-sass": "^4.7.2"
+  }
+}

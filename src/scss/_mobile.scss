@@ -1,0 +1,36 @@
+html,
+body,
+#app {
+  height: 100%;
+  margin: auto;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+header {
+  height: 34px;
+  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, .38);
+  padding: 20px 30px 26px 20px;
+
+  nav {
+      display: none;
+  }
+
+  select {
+      display: none;
+  }
+
+  .logo {
+      width: 25%;
+      float: left;
+  }
+
+  i {
+      float: right;
+      font-size: 30px;
+      cursor: pointer;
+  }
+}
+  
