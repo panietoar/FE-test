@@ -4,9 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "test",
-    "dev": "npm run scss && http-server",
-    "scss": "node-sass --output-style compressed -o dist/css src/scss"
+    "babel": "babel --presets es2015 src/main.js -o static/js/main.bundle.js",
+    "dev": "npm run scss && npm run babel && http-server",
+    "scss": "node-sass --output-style compressed -o static/css ./scss"
   },
   "author": "panietoar@gmail.com",
   "license": "ISC",
@@ -14,6 +14,9 @@
     "normalize.css": "^8.0.0"
   },
   "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-core": "^6.26.0",
+    "babel-preset-es2015": "^6.24.1",
     "node-sass": "^4.7.2"
   }
 }
