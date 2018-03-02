@@ -4,7 +4,7 @@ export default {
       let xhr = new XMLHttpRequest();
       xhr.open('GET', `static/assets/content/content-${lang}.json`, true);
       xhr.onload = () => {
-        resolve(xhr.response);
+        resolve(JSON.parse(xhr.response));
       }
       xhr.send();
     })

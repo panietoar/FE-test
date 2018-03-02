@@ -15,18 +15,15 @@
       <img src="static/assets/asset_icon/Logo-Prodigious-Balck@3x.png" alt="Prodigious Logo" width="120">
     </div>
     <i @click="openNav" class="material-icons">menu</i>
-    <nav class="four columns">
+    <nav class="four columns main-navigation">
       <ul>
-        <li><a href="#about">{{ content.about }}</a></li>
-        <li><a href="#work">{{ content.work }}</a></li>
-        <li><a href="#contact">{{ content.contact }}</a></li>
       </ul>
     </nav>
     <select class="four columns" id="language" @change="selectLanguage">
       <option v-for="language in languages" :value="language">{{ language }}</option>
     </select>
   </header>
-  <script src="static/js/main.bundle.js"></script>
+  <script src="dist/bundle.js"></script>
 </body>
 
 </html>
