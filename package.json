@@ -4,17 +4,15 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "babel": "babel --presets es2015 ./src -d static/js",
     "scss": "node-sass --output-style compressed -o static/css ./scss",
     "build": "npm run scss && webpack"
   },
   "author": "panietoar@gmail.com",
   "license": "ISC",
   "dependencies": {
-    "babel-loader": "^7.1.3",
-    "normalize.css": "^8.0.0"
   },
   "devDependencies": {
+    "babel-loader": "^7.1.3",
     "babel-cli": "^6.26.0",
     "babel-core": "^6.26.0",
     "babel-preset-env": "^1.6.1",

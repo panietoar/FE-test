@@ -14,13 +14,12 @@
     <div class="logo" >
       <img src="static/assets/asset_icon/Logo-Prodigious-Balck@3x.png" alt="Prodigious Logo" width="120">
     </div>
-    <i @click="openNav" class="material-icons">menu</i>
-    <nav class="four columns main-navigation">
+    <i class="material-icons nav-menu">menu</i>
+    <nav class="main-navigation four columns">
       <ul>
       </ul>
     </nav>
-    <select class="four columns" id="language" @change="selectLanguage">
-      <option v-for="language in languages" :value="language">{{ language }}</option>
+    <select class="language-selector four columns">
     </select>
   </header>
   <script src="dist/bundle.js"></script>

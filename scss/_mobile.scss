@@ -9,28 +9,54 @@ body {
   font-family: 'Roboto', sans-serif;
 }
 
+.hidden {
+    display: none;
+}
+
 header {
   height: 34px;
   box-shadow: 0 4px 4px 0 rgba(0, 0, 0, .38);
   padding: 20px 30px 26px 20px;
 
-  nav {
-      display: none;
+  nav.main-navigation {
+    background-color: white;
+    position: absolute;
+    top: 5em;
+    left: 0;
+
+    li {
+      list-style: none;
+      text-align: center;
+
+      a {
+        color: $menu_font_color;
+        text-decoration: none;
+        font-size: pixelToEm(30)em;
+        
+        &.active {
+          font-weight: bold;
+        }
+        
+        &:hover {
+          color: $menu_font_color;
+        }
+      }
+    }
   }
 
   select {
-      display: none;
+    display: none;
   }
 
   .logo {
-      width: 25%;
-      float: left;
+    width: 25%;
+    float: left;
   }
 
-  i {
-      float: right;
-      font-size: 30px;
-      cursor: pointer;
+  i.nav-menu {
+    float: right;
+    font-size: 30px;
+    cursor: pointer;
   }
 }
   
