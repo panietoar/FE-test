@@ -13,6 +13,7 @@ export default {
     .then(content => {
       this.pageContent = content;
       this.setupHeaderContent();
+      this.renderHeading();
     });
   },
 
@@ -35,6 +36,10 @@ export default {
     for (const link in navigation) {
       domHelper.appendHTML(selectors.navigation, `<li><a href="#${link}">${navigation[link]}</a></li>`);
     }
+  },
+
+  renderHeading() {
+    domHelper.setHTML(selectors.mainHeading, this.pageContent.heading);
   },
 
   selectLanguage(event) {

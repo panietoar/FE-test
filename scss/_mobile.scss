@@ -1,3 +1,4 @@
+//header
 html,
 body,
 #app {
@@ -7,6 +8,10 @@ body,
 
 body {
   font-family: 'Roboto', sans-serif;
+  
+  &.container {
+    padding: 0;
+  }
 }
 
 .hidden {
@@ -19,7 +24,7 @@ body {
 
 header {
   height: 34px;
-  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, .38);
+  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, .19);
   padding: 20px 30px 26px 20px;
 
   nav.main-navigation {
@@ -29,7 +34,7 @@ header {
     left: 0;
     visibility: hidden;
     opacity: 0;
-    transition: visibility 0.5s, opacity 0.5s linear;
+    transition: visibility 0.5s, opacity 0.2s linear;
 
     li {
       list-style: none;
@@ -64,6 +69,17 @@ header {
     float: right;
     font-size: 30px;
     cursor: pointer;
+  }
+}
+
+//heading
+
+section.main-heading {
+  margin-top: pixelToEm(50);
+  
+  div {
+    font-size: pixelToEm(30);
+    line-height: 1;
   }
 }
   

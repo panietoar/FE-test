@@ -1,15 +1,13 @@
 @media screen and (min-width: 321px){
-  body {
-      width: 1024px;
-  }
-
+//header
   header {
     padding: 20px 40px;
     
     nav.main-navigation {
-      width: 50%;
       visibility: visible;
       opacity: 1;
+      position: unset;
+      height: 1em;
       
       li {
         display: inline-block;
@@ -33,7 +31,7 @@
       border: none;
       text-align: right;
       cursor: pointer;
-      width: 50px;
+      width: 6%;
       appearance: none;
       -webkit-appearance: none;
       -moz-appearance: none;
@@ -54,5 +52,17 @@
     i.nav-menu {
       display: none;
     }
+  }
+
+  //heading
+
+  section.main-heading{
+    margin-top: pixelToEm(100);
+    margin-left: 200px;
+
+    div {
+      font-size: pixelToEm(60);
+      width: 80%;
+    } 
   }
 }
