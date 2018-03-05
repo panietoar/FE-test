@@ -4,8 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "scss": "node-sass --output-style compressed -o static/css ./scss",
-    "build": "npm run scss && webpack"
+    "scss": "node-sass -o static/css ./scss",
+    "build": "npm run scss && webpack --mode development"
   },
   "author": "panietoar@gmail.com",
   "license": "ISC",

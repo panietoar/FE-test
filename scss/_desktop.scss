@@ -8,7 +8,8 @@
     
     nav.main-navigation {
       width: 50%;
-      display: block;
+      visibility: visible;
+      opacity: 1;
       
       li {
         display: inline-block;
@@ -17,6 +18,7 @@
         
         a {
           padding: 2px 10px;
+          font-size: pixelToEm(12);
           
           &:hover {
             border-bottom: 2px solid $hover_underline_color;
@@ -25,15 +27,28 @@
       }
     }
     
-    select {
+    select.language-selector {
       display: block;
       float: right;
       border: none;
       text-align: right;
       cursor: pointer;
+      width: 50px;
       appearance: none;
       -webkit-appearance: none;
       -moz-appearance: none;
+      text-transform: uppercase;
+
+      &::after {
+        content: "\005E";
+        font-size: 2em;
+        position: relative;
+        float: right;
+        left: 60px;
+        transform: rotateX(180deg);
+        transform: scaleX(2);
+      }
+
     }
 
     i.nav-menu {

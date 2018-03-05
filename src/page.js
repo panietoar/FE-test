@@ -12,7 +12,7 @@ export default {
     request.getJSONContent(lang)
     .then(content => {
       this.pageContent = content;
-      this.renderHeaderContent();
+      this.setupHeaderContent();
     });
   },
 
@@ -25,6 +25,7 @@ export default {
 
   setupHeaderContent() {
     this.renderHeaderContent();
+    domHelper.query(selectors.navMenu).addEventListener('click', event => this.toggleNavMenu(event), false);
   },
 
   renderHeaderContent() {
@@ -41,4 +42,14 @@ export default {
     this.loadContent(newLanguage);
   },
 
+  toggleNavMenu(event) {
+    let visibility = window.getComputedStyle(domHelper.query(selectors.navigationContainer)).getPropertyValue('visibility');
+    if ('hidden' === visibility) {
+      domHelper.query(selectors.navigationContainer).style.visibility = 'visible';
+      domHelper.query(selectors.navigationContainer).style.opacity = 1;
+    } else {
+      domHelper.query(selectors.navigationContainer).style.visibility = 'hidden';
+      domHelper.query(selectors.navigationContainer).style.opacity = 0;
+    }
+  }
 }

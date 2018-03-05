@@ -13,6 +13,10 @@ body {
     display: none;
 }
 
+.visible {
+  display: block;
+}
+
 header {
   height: 34px;
   box-shadow: 0 4px 4px 0 rgba(0, 0, 0, .38);
@@ -23,6 +27,9 @@ header {
     position: absolute;
     top: 5em;
     left: 0;
+    visibility: hidden;
+    opacity: 0;
+    transition: visibility 0.5s, opacity 0.5s linear;
 
     li {
       list-style: none;
@@ -31,7 +38,7 @@ header {
       a {
         color: $menu_font_color;
         text-decoration: none;
-        font-size: pixelToEm(30)em;
+        font-size: pixelToEm(30);
         
         &.active {
           font-weight: bold;
