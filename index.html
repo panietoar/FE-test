@@ -26,6 +26,15 @@
     <div>
     </div>
   </section>
+  <section class="gallery">
+    <img :src="backgroundImage" alt="">
+      <h2>{{ currentSlide.text }}</h2>
+      <a class="more" href="#">{{ carousel.learnMore }}</a>
+      <div class="controls">
+        <div v-for="(slide, index) in carousel.slides" :key="slide.text" class="slide-control" :class="{active: isSlideActive(index)}" @click.prevent="selectSlide(index)"></div>
+      </div>
+  </section>
+
   <script src="dist/bundle.js"></script>
 </body>
 
